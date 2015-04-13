@@ -1,4 +1,5 @@
 composer.lock
 coverage.clover
 example/config.php
+tests/VoipCenterLiveTest.php
 /vendor/
