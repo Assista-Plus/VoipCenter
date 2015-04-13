@@ -15,6 +15,7 @@
     <testsuites>
         <testsuite name="VoipCenter Tests">
             <directory suffix=".php">./tests/</directory>
+            <exclude>./tests/VoipCenterLiveTest.php</exclude>
         </testsuite>
     </testsuites>
 

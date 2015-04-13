@@ -3,11 +3,17 @@
 require_once 'config.php';
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use TijsVerkoyen\VoipCenter;
+use TijsVerkoyen\VoipCenter\VoipCenter;
 
-$voipcenter = new VoipCenter();
+$voipCenter = new VoipCenter(
+    ID,
+    KEY,
+    CLIENT_NUMBER,
+    PASSWORD
+);
 
 try {
+    $response = $voipCenter->call('sumocoder1', '093950251');
 } catch (Exception $e) {
     var_dump($e);
 }
