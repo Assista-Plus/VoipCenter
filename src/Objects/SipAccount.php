@@ -60,14 +60,6 @@ class SipAccount extends Base implements BaseInterface
     protected $sipPing;
 
     /**
-     * @return array
-     */
-    protected function getMapping()
-    {
-        return $this->mapping;
-    }
-
-    /**
      * Get id
      *
      * @return int

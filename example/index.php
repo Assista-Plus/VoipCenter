@@ -13,7 +13,9 @@ $voipCenter = new VoipCenter(
 );
 
 try {
-    $response = $voipCenter->call('sumocoder1', '093950251');
+//    $response = $voipCenter->call('sumocoder1', '093950251');
+//    $response = $voipCenter->getMenu('sipacc');
+//    $response = $voipCenter->getMenu('did');
 } catch (Exception $e) {
     var_dump($e);
 }
