@@ -3,7 +3,7 @@
   "type":        "library",
   "description": "PHP VoipCenter is a (wrapper)class to communicate with the Voipcenter Webservices.",
   "homepage":    "https://github.com/tijsverkoyen/VoipCenter",
-  "license":     "BSD",
+  "license":     "MIT",
   "authors":     [
     {
       "name":  "Tijs Verkoyen",
